@@ -1,18 +1,11 @@
-<<<<<<< HEAD
-import express, { Express, Request, Response } from 'express';
-=======
 import express, { Express, json, Request, Response } from 'express';
->>>>>>> 4583b18 (commit)
 import cors from "cors"
 
 const app: Express = express();
 const port = 3000;
 
 app.use(cors());
-<<<<<<< HEAD
-=======
 app.use(json())
->>>>>>> 4583b18 (commit)
 
 interface User {
   id: number;
